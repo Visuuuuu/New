@@ -1,0 +1,68 @@
+body {
+  margin-top: 2.5%;
+  background: url("http://4.bp.blogspot.com/-p-MYv7vCz9U/UUspNl9_zlI/AAAAAAAAjq8/EiwqDk124fk/s1600/Full+HD+love+Wallpapers+(1).jpg")
+    no-repeat center center fixed
+    rgba(0, 0, 0, 1.0);
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover; /* Mozilla*/
+  -o-background-size: cover; /* Opera*/
+  background-size: cover; /* Generic*/
+  background-position: 50% 1%;
+}
+
+.verse-bg {
+  background: rgba(20, 20, 20, 0.5);
+  font-family: "georgia";
+  border-radius: 20px;
+  max-height: 65vh;
+  overflow: hidden;
+}
+
+.verse {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 13vh;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 1%;
+  padding-right: 1px;
+  border-top: 50%;
+  line-height: 110%;
+}
+
+.verse-info {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: right;
+  font-size: 3.2vw;
+  padding-top: 2%;
+  padding-right: 3%;
+}
+
+.controls {
+  position: absolute;
+  bottom: 2%;
+}
+
+.controls-item {
+  background-color: rgba(130, 130, 130, 0.1);
+  border-color: rgba(130, 130, 130, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+}
+
+select {
+  background-color: rgba(130, 130, 130, 0.1);
+  border-color: rgba(130, 130, 130, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+  /*padding: 1px;*/
+  border-radius: 20px;
+  border: none;
+}
+
+option:not(:checked) { 
+  background-color: #000;
+}
+
+option:checked {
+  background-color: #444;
+}

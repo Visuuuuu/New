@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Bible Verse Display</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+<div class="container">
+  <div class="verse-bg" id="verse-bg">
+    <p class="verse" id="verse">
+      Please select a verse.
+    </p>
+  </div>
+  <p class="verse-info" id="verse-info">
+    <!--— Book Chapter : Verse-->
+  </p>
+  <div class="controls">
+    <!--<div class="col-xs-12">
+      <form>
+        <div id="searchResults"></div>
+        <input type="text" name="searchbox" id="searchbox">
+      </form>
+    </div>-->
+    <div class="col-xs-12">
+      <select id="booklist">
+        </select>
+      <select id="chapterlist">
+        </select>
+      <select id="verselist">
+        </select>
+      <button id="go-to-verse" class="controls-item"><i class="fa fa-share"></i> Go...</button>
+      <button id="add-to-queue" class="controls-item"><i class="fa fa-share"></i> Queue</button>
+    </div>
+    <div class="col-xs-12">
+      <button id="previous-verse" class="controls-item"><i class="fa fa-arrow-left"></i> Prev</button>
+      <button id="next-verse" class="controls-item">Next <i class="fa fa-arrow-right"></i></button>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
