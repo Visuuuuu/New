@@ -1,0 +1,43 @@
+div, div:before, div:after {
+  display: block;
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0dac6;
+}
+
+div.feast {
+  width: 90vmin;
+  height: 90vmin;
+  z-index: 9999;
+  display: flex;
+  transform: rotate(25deg);
+  margin: 0 auto;
+  position: relative;
+  background: radial-gradient(ellipse, #856240 7.5vmin, transparent 1vmin) calc(-5vmin + 45vmin) calc(8vmin + 25vmin)/15vmin 55vmin no-repeat, radial-gradient(ellipse, #ffc24d 7.5vmin, transparent 1vmin) calc(-5vmin + 52vmin) calc(8vmin + 27vmin)/15vmin 55vmin no-repeat;
+}
+
+div.feast:before {
+  width: 100vmin;
+  height: 100vmin;
+  z-index: -99;
+  transform: rotate(-25deg);
+  background: radial-gradient(ellipse at 130% 90%, transparent 8vmin, #cc8700 8vmin, #cc8700 8.5vmin, transparent 1vmin) calc(-5vmin + 42vmin) calc(8vmin + 50vmin)/20vmin 20vmin no-repeat, radial-gradient(ellipse at 130% 90%, transparent 8vmin, #cc8700 8vmin, #cc8700 8.5vmin, transparent 1vmin) calc(-5vmin + 47vmin) calc(8vmin + 50vmin)/20vmin 20vmin no-repeat, radial-gradient(ellipse at 130% 90%, transparent 8vmin, #cc8700 8vmin, #cc8700 8.5vmin, transparent 1vmin) calc(-5vmin + 52vmin) calc(8vmin + 50vmin)/20vmin 20vmin no-repeat, radial-gradient(ellipse at 50% 80%, #ffcb66 30vmin, transparent 1vmin) calc(-5vmin + 30vmin) calc(8vmin + 60vmin)/75vmin 23vmin no-repeat, radial-gradient(ellipse, #a77b51 5vmin, transparent 1vmin) calc(-5vmin + 59vmin) calc(8vmin + 10vmin)/10vmin 10vmin no-repeat, radial-gradient(ellipse, #a77b51 3.25vmin, transparent 1vmin) calc(-5vmin + 34.75vmin) calc(8vmin + -7.75vmin)/6.5vmin 6.5vmin no-repeat, radial-gradient(ellipse, #a77b51 3.25vmin, transparent 1vmin) calc(-5vmin + 75.5vmin) calc(8vmin + 37.5vmin)/6.5vmin 6.5vmin no-repeat, linear-gradient(48deg, transparent 27vmin, #a77b51 27vmin, #a77b51 33.5vmin, transparent 1vmin) calc(-5vmin + 36.25vmin) calc(8vmin + -6.25vmin)/25vmin 45vmin no-repeat, linear-gradient(-132deg, transparent 27vmin, #a77b51 27vmin, #a77b51 33.5vmin, transparent 1vmin) calc(-5vmin + 56vmin) calc(8vmin + -2vmin)/25vmin 45vmin no-repeat, radial-gradient(ellipse at 50% 0%, transparent 34vmin, #f0dac6 34vmin) calc(-5vmin + 8vmin) calc(8vmin + 60vmin)/75vmin 23vmin no-repeat, repeating-linear-gradient(90deg, #ffe6cc 0vmin, #ffe6cc 1.5vmin, transparent 1.5vmin, transparent 4vmin) calc(-5vmin + 18vmin) calc(8vmin + 45vmin)/18vmin 36vmin no-repeat, repeating-linear-gradient(90deg, #ffe6cc 0vmin, #ffe6cc 1.5vmin, transparent 1.5vmin, transparent 4vmin) calc(-5vmin + 56vmin) calc(8vmin + 45vmin)/18vmin 36vmin no-repeat, repeating-linear-gradient(#ffe6cc 0vmin, #ffe6cc 1.5vmin, transparent 1.5vmin, transparent 4vmin) calc(-5vmin + 13.5vmin) calc(8vmin + 50vmin)/66vmin 18vmin no-repeat, linear-gradient(90deg, #a77b51 66vmin, transparent 1vmin) calc(-5vmin + 13.5vmin) calc(8vmin + 45vmin)/66vmin 36vmin no-repeat, radial-gradient(ellipse at 90% 130%, transparent 7vmin, #714c26 7vmin, #714c26 7.5vmin, transparent 1vmin) calc(-5vmin + 14.5vmin) calc(8vmin + 22vmin)/25vmin 15vmin no-repeat, radial-gradient(ellipse at 90% 130%, transparent 7vmin, #714c26 7vmin, #714c26 7.5vmin, transparent 1vmin) calc(-5vmin + 14.5vmin) calc(8vmin + 25vmin)/25vmin 15vmin no-repeat, radial-gradient(ellipse, #cb9865 7.5vmin, transparent 1vmin) calc(-5vmin + 25vmin) calc(8vmin + 16vmin)/15vmin 55vmin no-repeat, radial-gradient(ellipse at 90% 130%, transparent 7vmin, #c58b52 7vmin, #c58b52 7.5vmin, transparent 1vmin) calc(-5vmin + 24.5vmin) calc(8vmin + 18vmin)/25vmin 15vmin no-repeat, radial-gradient(ellipse at 90% 130%, transparent 7vmin, #c58b52 7vmin, #c58b52 7.5vmin, transparent 1vmin) calc(-5vmin + 24.5vmin) calc(8vmin + 21vmin)/25vmin 15vmin no-repeat, radial-gradient(ellipse, #ffcc99 7.5vmin, transparent 1vmin) calc(-5vmin + 35vmin) calc(8vmin + 10vmin)/15vmin 55vmin no-repeat;
+}
+
+div.feast:after {
+  width: 100vmin;
+  height: 100vmin;
+  left: 1vmin;
+  z-index: -999;
+  transform: rotate(-46deg);
+  background: linear-gradient(-105deg, #f0dac6 2vmin, transparent 1vmin) calc(-5vmin + 10vmin) calc(8vmin + 8vmin)/10vmin 8vmin no-repeat, radial-gradient(ellipse at 50% -30%, transparent 4vmin, #993d00 4vmin, #993d00 4.5vmin, transparent 1vmin) calc(-5vmin + 18vmin) calc(8vmin + 23vmin)/10vmin 4vmin no-repeat, radial-gradient(ellipse, #993d00 1vmin, transparent 1vmin) calc(-5vmin + 24vmin) calc(8vmin + 16vmin)/2vmin 3vmin no-repeat, radial-gradient(ellipse, #ff6600 7.5vmin, transparent 1vmin) calc(-5vmin + 12vmin) calc(8vmin + 5vmin)/20vmin 55vmin no-repeat, linear-gradient(-105deg, #f0dac6 2vmin, transparent 1vmin) calc(-5vmin + 17vmin) calc(8vmin + -1vmin)/10vmin 8vmin no-repeat, radial-gradient(ellipse at 50% -30%, transparent 4vmin, #cc5200 4vmin, #cc5200 4.5vmin, transparent 1vmin) calc(-5vmin + 25.5vmin) calc(8vmin + 12vmin)/10vmin 4vmin no-repeat, radial-gradient(ellipse, #cc5200 1vmin, transparent 1vmin) calc(-5vmin + 31vmin) calc(8vmin + 7vmin)/2vmin 2.5vmin no-repeat, radial-gradient(ellipse, #ff8533 7.5vmin, transparent 1vmin) calc(-5vmin + 20vmin) calc(8vmin + -5vmin)/20vmin 55vmin no-repeat;
+}
